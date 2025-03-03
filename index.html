@@ -5,6 +5,10 @@
     <title>HTML5 Features Task</title>
 </head>
 <body>
+    <!-- New Top Section -->
+    <div>
+        <a href="signin.html">Sign In</a>
+    </div>
 
     <!-- Task 1: Registration Form with Validation -->
     <h2>Registration Form</h2>
@@ -13,14 +17,12 @@
             <label>Full Name:</label>
             <input type="text" name="name" required 
                    placeholder="John Doe" minlength="3">
-            
         </div>
 
         <div>
             <label>Email:</label>
             <input type="email" name="email" required
                    placeholder="john@example.com">
-        
         </div>
 
         <div>
@@ -28,13 +30,11 @@
             <input type="password" name="password" required 
                    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
                    placeholder="enter password">
-            <span></span>
         </div>
 
         <div>
             <label>Birth Date:</label>
             <input type="date" name="dob" required>
-           
         </div>
 
         <div>
@@ -58,10 +58,10 @@
         Audio not supported
     </audio>
 
-    <!-- Task 3: SVG Icon -->
-    <h2>SVG Icon</h2>
+    <!-- Task 3: Google SVG Icon -->
+    <h2>Google SVG Icon</h2>
     <svg width="100" height="100" viewBox="0 0 24 24">
-        <path d="M12 2L3 9L5 9L5 20L11 20L11 14L13 14L13 20L19 20L19 9L21 9L12 2Z"/>
+        <path d="M12.545 10.239v3.821h5.445c-.712 2.315-2.647 3.972-5.445 3.972-3.332 0-6.033-2.701-6.033-6.032s2.701-6.032 6.033-6.032c1.498 0 2.866.549 3.921 1.453l2.814-2.814C17.503 2.332 15.139 1 12.545 1 7.021 1 2.545 5.476 2.545 11s4.476 10 10 10c5.523 0 10-4.476 10-10 0-.671-.069-1.325-.189-1.971H12.545z"/>
     </svg>
 
     <!-- Task 4: YouTube Embed -->
@@ -74,36 +74,23 @@
     <!-- HTML5 Input Types with Use Cases -->
     <h2>HTML5 Input Types</h2>
     <div>
-
-        <!-- Text-based Inputs -->
         <input type="text" placeholder="Enter your name"> - General text input<br>
         <input type="password" placeholder="••••••••"> - Masked password entry<br>
         <input type="email" placeholder="name@example.com"> - Email address with validation<br>
         <input type="url" placeholder="https://www.example.com"> - Web URL validation<br>
         <input type="tel" placeholder="(+251) 123-4567" pattern="[0-9]{10}"> - Phone number input<br>
         <input type="search" placeholder="Search products..."> - Search field<br>
-    
-    <!-- Numeric Inputs -->
-    <input type="number" min="0" max="100" step="1" value="0"> - Numerical input with spinner<br>
-        
-        <!-- Numeric Inputs -->
-        <input type="number"> - Numerical input with spinner<br>
+        <input type="number" min="0" max="100" step="1" value="0"> - Numerical input with spinner<br>
         <input type="range"> - Slider control<br>
-        
-        <!-- Date/Time Inputs -->
         <input type="date"> - Date picker<br>
         <input type="time"> - Time selector<br>
         <input type="datetime-local"> - Local date/time<br>
         <input type="month"> - Month/year selector<br>
         <input type="week"> - Week picker<br>
-        
-        <!-- Special Inputs -->
         <input type="color"> - Color picker<br>
         <input type="file"> - File upload<br>
         <input type="checkbox"> - Multiple selection<br>
         <input type="radio"> - Single selection<br>
-        
     </div>
-
 </body>
 </html>
