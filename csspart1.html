@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rabuma Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Task 12, 14: Notification with shadow and rounded -->
+    <div class="notification">
+        <i class="fas fa-bell"></i>
+        <span class="badge">3</span>
+    </div>
+
+    <!-- Task 3, 9, 15: Styled nav with hover transitions -->
+    <nav class="main-nav">
+        <ul>
+            <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="#blog"><i class="fas fa-blog"></i> Blog</a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Task 1, 2, 5, 8: Hero section with gradient bg -->
+    <section id="home" class="hero">
+        <h1>Rabuma M</h1>
+        <img src="rabuma.JPG" alt="Profile" class="profile-img">
+        <p class="subtitle">Front-End Developer</p>
+        <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur quae, tempora sit aliquid quia ut soluta magni. Magnam quae voluptates eum tenetur accusantium minus dolorem voluptate voluptas? In, optio blanditiis!.</p>
+        <button class="cta-btn">View Portfolio <i class="fas fa-arrow-right"></i></button>
+    </section>
+
+    <!-- Task 4, 16: Blog section with text styling -->
+    <section id="blog" class="blog-section">
+        <h2>My blogs</h2>
+        <div class="article-grid">
+            <article class="blog-card">
+                <h3>how to learn Css3</h3>
+                <time datetime="2025-03-03">March 3, 2025</time>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
+                <a href="#" class="read-more">Read More <i class="fas fa-book-open"></i></a>
+            </article>
+            <article class="blog-card">
+                <h3>skill gap</h3>
+                <time datetime="2025-03-04">March 4, 2025</time>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
+                <a href="#" class="read-more">Read More <i class="fas fa-book-open"></i></a>
+            </article>
+        </div>
+    </section>
+
+    <!-- Task 18, 14, 15: Contact form with styled inputs -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <input type="text" placeholder="Full Name" required>
+                <i class="fas fa-user input-icon"></i>
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Email Address" required>
+                <i class="fas fa-envelope input-icon"></i>
+            </div>
+            <div class="form-group">
+                <textarea placeholder="Your Message..." required></textarea>
+                <i class="fas fa-comment input-icon textarea-icon"></i>
+            </div>
+            <button type="submit" class="submit-btn">
+                Send Message <i class="fas fa-paper-plane"></i>
+            </button>
+        </form>
+    </section>
+
+    <!-- Task 4: Centered footer -->
+    <footer class="main-footer">
+        <p>&copy; 2024 Rabuma. All rights reserved.</p>
+    </footer>
+</body>
+</html>
