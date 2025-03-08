@@ -1,0 +1,144 @@
+.box {
+  width: 200px;
+  height: 100px;
+  background-color: lightgray;
+  text-align: center;
+  line-height: 100px;
+  font-weight: bold;
+
+  /* Different border widths and colors */
+  border-top: 5px solid red;
+  border-right: 10px dashed blue;
+  border-bottom: 15px dotted green;
+  border-left: 20px double orange;
+}
+
+.box-padding {
+  width: 200px;
+  background-color: lightblue;
+  border: 3px solid black;
+
+  /* Adding padding */
+  padding: 20px;
+}
+
+.box-margin {
+  width: 150px;
+  background-color: lightcoral;
+  border: 2px solid black;
+  padding: 10px;
+
+  /* Adjusting margins */
+  margin: 20px;
+}
+
+.box-border-box {
+  width: 200px;
+  background-color: lightgreen;
+  border: 5px solid black;
+  padding: 20px;
+
+  /* Using box-sizing */
+  box-sizing: border-box;
+}
+
+/* Card styling */
+.task-5-card {
+  width: 300px;
+  background-color: #f9f9f9;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1); /* Adds a shadow effect */
+  text-align: center;
+}
+
+/* Button styling */
+.task-5-card button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.task-5-card button:hover {
+  background-color: #0056b3;
+}
+
+/* Grid container */
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px;
+  max-width: 1200px;
+  background: white;
+  margin: 0 auto;
+  
+}
+
+/* card style */
+.card {
+  background-color: #f7f3f2;
+  width: 300px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  height: fit-content;
+  border-left: 6px solid #c6c1c0;
+  padding: 5px 18px 5px 18px;
+}
+
+.card-title {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 0.4;
+  margin-bottom: 0px;
+}
+
+.card-title + p {
+  color: #696666;
+  font-size: 18px;
+}
+
+.order {
+  font-size: 20px;
+  margin-bottom: -15px;
+  margin-top: 30px;
+}
+
+.order + p {
+  color: #696666;
+  font-size: 18px;
+}
+
+.keyboard {
+  background: linear-gradient(to right, #ffebe7, #ebebeb);
+  padding: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  width: 1150px;
+  margin: 0 auto;
+}
+
+.keyboard-card {
+  width: 96px;
+  min-width: 90px;
+  height: 56px;
+  background: white;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border-left: 4px solid #ff5f5f;
+  box-sizing: border-box;
+}
+
+.keyboard-card[style*="dashed"] {
+  border-left: 4px dashed;
+}
