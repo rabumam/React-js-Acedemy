@@ -20,40 +20,58 @@ body {
     color: var(--text-color);
     margin: 0;
     padding: var(--spacing-unit);
+    line-height: 1.6;
 }
 
-/* Task 12, 14: Notification styling */
-.notification {
-    position: fixed;
-    top: 2rem;
-    right: 2rem;
-    background: var(--bg-light);
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+.notification-item {
+    position: relative;
+}
+
+.notification-item a {
+    position: relative;
     display: flex;
     align-items: center;
-    justify-content: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    transition: transform var(--transition-speed) ease;
-    z-index: 1000;
+    padding: 0.75rem 1.5rem !important;
+    transition: all var(--transition-speed) ease;
+}
+
+.notification-item i {
+    font-size: 1.5rem; /* Larger icon size */
+    transition: transform 0.2s ease;
 }
 
 .badge {
     position: absolute;
     top: -8px;
-    right: -8px;
+    right: 2px;
     background: var(--accent-color);
     color: white;
-    padding: 4px 8px;
+    min-width: 24px;
+    height: 24px;
     border-radius: 50%;
-    font-size: 0.8rem;
-    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    font-weight: 700;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    line-height: 1;
+    padding: 0 4px;
+}
+
+/* Hover effects */
+.notification-item:hover i {
+    transform: scale(1.1);
+}
+
+.notification-item:hover .badge {
+    transform: scale(1.15);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
 }
 
 /* Task 3, 15: Navigation hover effects */
 .main-nav {
+    align-items: center;
     background: var(--primary-color);
     padding: 1rem;
     margin: calc(var(--spacing-unit) * -1) calc(var(--spacing-unit) * -1) 2rem;
@@ -219,4 +237,14 @@ h2 {
         width: 90%;
         margin: 1.5rem auto;
     }
+    /* Mobile adjustment */
+
+    .badge {
+         top: -10px;
+        right: -6px;
+        min-width: 20px;
+        height: 20px;
+        font-size: 0.75rem;
+    }
+
 }
