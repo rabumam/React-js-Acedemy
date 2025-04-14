@@ -1,13 +1,13 @@
-# 📝 Todo App 
+# MyTodo App 
 
-A fully functional and beautifully designed **Todo Application** built with **Next.js 13+ (App Router)** and **TypeScript**. This app allows users to manage tasks effectively with support for categories, priorities, authentication, filtering, themes, and more.
+A fully functional and beautifully designed **Todo Application** built with nextjs. This app allows users to manage tasks effectively with support for categories, priorities, authentication, filtering, themes, and more.
 
 ---
 
 ## 🚀 Live Demo
 
 🔗 [Deployed App Link](https://mytodo-app-ten.vercel.app/)  
-📦 Built with: Next.js, TypeScript, TailwindCSS, Context API
+
 
 ---
 
@@ -21,27 +21,28 @@ A fully functional and beautifully designed **Todo Application** built with **Ne
 ![dashboard](https://github.com/user-attachments/assets/36836148-1d8b-4761-8618-5ce12a645bc8)
 ## Analytics
 ![analytics](https://github.com/user-attachments/assets/af0a2008-5943-486b-927f-c6ef52ecf5a6)
+## View by calendar
+![calendar](https://github.com/user-attachments/assets/97edf885-4814-4c63-b560-9086b9c689d5)
 
 
 
 
+## Features
 
-## 📚 Features
-
-### ✅ Task Management
+###  Task Management
 - Add, edit, and delete tasks
 - Mark tasks as complete/incomplete
 - Batch actions: delete or mark multiple tasks
 - Notes and descriptions for tasks
 - Drag-and-drop task reordering
 
-### 📂 Organization
+### Organization
 - Create and manage categories
 - Assign priorities: High, Medium, Low
 - Add due dates
 - Sort by due date or priority
 
-### 🔎 Filtering and Search
+###  Filtering and Search
 - Filter by:
   - Completion status (All, Active, Completed)
   - Category
@@ -49,7 +50,7 @@ A fully functional and beautifully designed **Todo Application** built with **Ne
   - Due date (Today, This Week, This Month)
 - Search by title or description
 
-### 🧠 User Experience
+###  User Experience
 - Responsive design (mobile-first)
 - Light & dark theme toggle
 - Keyboard shortcuts
