@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📝 Todo App (Next.js + TypeScript)
 
-## Getting Started
+A fully functional and beautifully designed **Todo Application** built with **Next.js 13+ (App Router)** and **TypeScript**. This app allows users to manage tasks effectively with support for categories, priorities, authentication, filtering, themes, and more.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Live Demo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🔗 [Deployed App Link](https://mytodo-app-ten.vercel.app/)  
+📦 Built with: Next.js, TypeScript, TailwindCSS, Context API
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📚 Features
 
-## Learn More
+### ✅ Task Management
+- Add, edit, and delete tasks
+- Mark tasks as complete/incomplete
+- Batch actions: delete or mark multiple tasks
+- Notes and descriptions for tasks
+- Drag-and-drop task reordering
 
-To learn more about Next.js, take a look at the following resources:
+### 📂 Organization
+- Create and manage categories
+- Assign priorities: High, Medium, Low
+- Add due dates
+- Sort by due date or priority
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 🔎 Filtering and Search
+- Filter by:
+  - Completion status (All, Active, Completed)
+  - Category
+  - Priority
+  - Due date (Today, This Week, This Month)
+- Search by title or description
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 🧠 User Experience
+- Responsive design (mobile-first)
+- Light & dark theme toggle
+- Keyboard shortcuts
+- Undo last action
+- Notifications for upcoming tasks
+- Smooth animations
 
-## Deploy on Vercel
+### 💾 Persistence
+- LocalStorage support for tasks
+- Export/import tasks as JSON
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 🔐 Authentication
+- Basic mock authentication
+- Restrict access to tasks by user session
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🧱 Tech Stack
+
+- **Framework:** [Next.js 13+](https://nextjs.org/)
+- **Language:** TypeScript
+- **Styling:** TailwindCSS, shadcn/ui
+- **State Management:** React Context API, custom hooks
+- **Routing:** App Router
+- **Icons & Animations:** Lucide, Framer Motion
+- **Storage:** localStorage
+
