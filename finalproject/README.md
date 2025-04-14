@@ -11,6 +11,20 @@ A fully functional and beautifully designed **Todo Application** built with **Ne
 
 ---
 
+### 📸 Screenshots
+## login
+![image](https://github.com/user-attachments/assets/9bb85d11-aecf-4eb2-806d-9a908393eab6)
+## Home page 
+![homepage](https://github.com/user-attachments/assets/ae9f99b6-4651-4102-a124-d18e2865a202)
+## tasks
+![dashboard](https://github.com/user-attachments/assets/36836148-1d8b-4761-8618-5ce12a645bc8)
+## Analytics
+![analytics](https://github.com/user-attachments/assets/af0a2008-5943-486b-927f-c6ef52ecf5a6)
+
+
+
+
+
 ## 📚 Features
 
 ### ✅ Task Management
