@@ -1,4 +1,4 @@
-# 📝 Todo App (Next.js + TypeScript)
+# 📝 Todo App 
 
 A fully functional and beautifully designed **Todo Application** built with **Next.js 13+ (App Router)** and **TypeScript**. This app allows users to manage tasks effectively with support for categories, priorities, authentication, filtering, themes, and more.
 
