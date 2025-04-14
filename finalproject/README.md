@@ -13,7 +13,8 @@ A fully functional and beautifully designed **Todo Application** built with **Ne
 
 ### 📸 Screenshots
 ## login
-![image](https://github.com/user-attachments/assets/9bb85d11-aecf-4eb2-806d-9a908393eab6)
+![image](https://github.com/user-attachments/assets/cb311157-09a2-4fb0-840a-58fe419ffd6d)
+
 ## Home page 
 ![homepage](https://github.com/user-attachments/assets/ae9f99b6-4651-4102-a124-d18e2865a202)
 ## tasks
@@ -54,25 +55,4 @@ A fully functional and beautifully designed **Todo Application** built with **Ne
 - Keyboard shortcuts
 - Undo last action
 - Notifications for upcoming tasks
-- Smooth animations
-
-### 💾 Persistence
-- LocalStorage support for tasks
-- Export/import tasks as JSON
-
-### 🔐 Authentication
-- Basic mock authentication
-- Restrict access to tasks by user session
-
----
-
-## 🧱 Tech Stack
-
-- **Framework:** [Next.js 13+](https://nextjs.org/)
-- **Language:** TypeScript
-- **Styling:** TailwindCSS, shadcn/ui
-- **State Management:** React Context API, custom hooks
-- **Routing:** App Router
-- **Icons & Animations:** Lucide, Framer Motion
-- **Storage:** localStorage
 
